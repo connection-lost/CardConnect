@@ -1,0 +1,14 @@
+name: CardConnect
+main: me.crafter.mc.cardconnect.CardConnect
+version: 1.0
+api-version: 1.16
+softdepend: [ProtocolLib, Vault, RevAPI]
+
+description: >
+             Card
+
+commands:
+   card:
+      permission: card.admin
+      usage: |
+         /card
